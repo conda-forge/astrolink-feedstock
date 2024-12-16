@@ -1,5 +1,5 @@
 {% set name = "astrolink" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/astrolink-{{ version }}.tar.gz
-  sha256: a2adc9d8e908fc64c3ea95d8e59a32c97d5148af625e176b29e4c0d8dc8652fa
+  sha256: f79f43c06e5658133814288cf44e7af820668c37d2870315ccc523821946ad19
 
 build:
   noarch: python
@@ -27,6 +27,7 @@ requirements:
     - pykdtree
     - scipy
     - scikit-learn
+    - matplotlib
 
 test:
   imports:
