@@ -1,5 +1,5 @@
 {% set name = "astrolink" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/astrolink-{{ version }}.tar.gz
-  sha256: fdd62df3e13a84d911c559c008bd885cf9359b920c33a0ee8645914aaadba3c8
+  sha256: cf2134a5aaa621eb4f94d7ae481a8b467470f9d89e9c0c4b3c793205e0e18660
 
 build:
   noarch: python
